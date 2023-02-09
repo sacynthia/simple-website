@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <a href="https://www.google.com">
+        <button disabled style="background-color: #333333;color:#00ff00;border-radius: 5px;">Click me</button>
+    </a>
+
+    <button onclick="doSomeThing()" style="background-color: grey;">
+        Click me</button>
+
+    <p id="test">Hello</p>
+    <script>
+        function doSomeThing() {
+            document.getElementById("test").innerHTML = "Good Bye";
+        }
+    </script>
+</body>
+
+</html>
